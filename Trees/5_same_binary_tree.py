@@ -39,6 +39,7 @@ class SolutionRecursive:
 # 📘 Approach 2: Iterative BFS using Queue
 # Compare corresponding nodes in both trees in parallel
 # Time: O(n), Space: O(n)
+# In the worst case, the queue can hold up to all nodes at the largest level of the trees simultaneously
 # -----------------------------------------------------------
 
 class SolutionIterative:
